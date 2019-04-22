@@ -1,0 +1,102 @@
+
+@font-face {
+  font-family: 'CircularBold';
+  src: url('assets/CircularStd-Bold.otf') format('otf');
+
+  font-family: 'Circular';
+  src: url('assets/CircularStd-Book.otf') format('otf');
+}
+
+@media only screen and (min-width: 800px) {
+	body{
+		margin-bottom: 10%;
+		font-family: 'Circular', Fallback, sans-serif;
+	}
+
+	.formSection{
+		margin-top: 5%;
+	}
+
+	.omni-logo{
+		margin-top: 1%;
+	}
+
+	.header-title{
+		font-size: 42px;
+		width: 60%;
+		margin-top: 5%;
+	}
+
+	.header-description{
+		font-size: 28px;
+		width: 50%;
+	}
+
+	.grid{
+		margin-top: 8%;
+		width: 80%;
+	}
+
+	.row{
+		display: flex;
+	}
+
+	.col{
+		flex: 1;
+	}
+
+	.grid-heading{
+		margin-top: 15%;
+		font-size: 32px;
+	}
+
+	.grid-paragraph{
+		font-size: 22px;
+		width: 80%;
+	}
+
+	.grid-check{
+		height: 50px;
+		width: 50px;
+	}
+
+	.bikeImg{
+		height: 350px;
+		width: 350px;
+		margin-right: 2.5%;
+		margin-left: 2.5%;	
+		object-fit: cover;	
+		border-radius: 26px;
+		box-shadow: 0 32px 70px -12.125px rgba(0,0,0,0.3);
+	}
+
+	.campImg{
+		width: 50%;
+		margin-right: 2.5%;
+		margin-left: 2.5%;	
+		margin-top: 5%;
+		object-fit: cover;	
+		border-radius: 26px;
+		box-shadow: 0 32px 70px -12.125px rgba(0,0,0,0.3);
+	}
+
+	.image-section-1{
+		margin-top: 5%;
+	}
+
+	.header{
+
+	}
+
+	.section-2{
+		margin-top: 10%;
+	}
+
+	.section-3{
+		margin-top: 10%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+}
