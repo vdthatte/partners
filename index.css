@@ -17,6 +17,8 @@
 		text-decoration: none;
 		color: #0091FF;
 		font-size: 22px;
+		font-weight: 300;
+		font-family: Circular-300, Helvetica, sans-serif;
 	}
 
 	.formSection{
@@ -48,7 +50,7 @@
 		width: 50%;
 		opacity: 0.6;
 		font-family: Circular-300, Helvetica, sans-serif;
-		margin-bottom: 5%;
+		margin-bottom: 3%;
 	}
 
 	.grid{
@@ -152,6 +154,8 @@
 		text-decoration: none;
 		color: #0091FF;
 		font-size: 22px;
+		font-weight: 300;
+		font-family: Circular-300, Helvetica, sans-serif;
 	}
 
 	.formSection{
@@ -195,7 +199,7 @@
 	}
 
 	.col{
-		
+
 	}
 
 	.grid-heading{
